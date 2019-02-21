@@ -16,7 +16,8 @@ def create_project_hash
     project[title.to_sym] = {
       :image_link => image_link,
       :description => description,
-      :location => location
+      :location => location,
+      :percent_funded => percent_funded
     }
   end 
   projects
